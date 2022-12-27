@@ -1,0 +1,30 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "protype application",
+  "main": "main.js",
+  "scripts": {
+    "electron:start": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "make:linux": "electron-forge make --installer deb"
+  },
+  "keywords": [
+    "dekstop-app"
+  ],
+  "author": "one-d",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "^22.0.0",
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
